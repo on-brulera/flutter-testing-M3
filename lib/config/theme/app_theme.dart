@@ -5,7 +5,7 @@ List colores = <Color>[
   Colors.white,
   Colors.red,
   Colors.green,
-  Colors.transparent
+  Colors.amber
 ];
 
 class AppTheme {

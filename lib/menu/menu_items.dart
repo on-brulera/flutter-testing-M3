@@ -21,4 +21,5 @@ const appMenuItems = <MenuItems>[
   MenuItems(title: 'Snackbar y dialogs',subTitle: 'Indicadores en pantalla', link: '/snackbar', icon: Icons.info_outline),
   MenuItems(title: 'Animated Contained',subTitle: 'Cuadro animado', link: '/animated', icon: Icons.check_box_outlined),
   MenuItems(title: 'UI Controls + Tiles',subTitle: 'Serie de controles', link: '/ui-controls', icon: Icons.card_membership_outlined),
+  MenuItems(title: 'Introducción a la App',subTitle: 'Pequeño tutorial App', link: '/tutorial', icon: Icons.accessibility_new_rounded),
 ];

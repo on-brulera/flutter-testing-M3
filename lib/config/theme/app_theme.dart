@@ -11,12 +11,14 @@ List colores = <Color>[
 class AppTheme {
 
   final int selectedColor;
+  final bool isDark;
 
-  AppTheme({required this.selectedColor})
+  AppTheme({this.selectedColor = 0, this.isDark = false})
     :assert(selectedColor >= 0 && selectedColor < colores.length, 'selected color must be 0 - ${colores.length-1}');
 
   ThemeData getTheme() => ThemeData(
     useMaterial3: true,
+    brightness: isDark? Brightness.dark: Brightness.light,
     colorSchemeSeed: colores[selectedColor],
     appBarTheme: const AppBarTheme(centerTitle: true)
   );
